@@ -1,0 +1,12 @@
+[vms]
+192.168.40.132
+192.168.40.184
+192.168.40.147
+
+[nucs]
+192.168.40.153
+192.168.40.112
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=root

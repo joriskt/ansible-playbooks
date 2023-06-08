@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+  
+  - name: Update system
+    apt:
+      upgrade: dist
+      autoclean: true
+      autoremove: true
+      update_cache: yes
+

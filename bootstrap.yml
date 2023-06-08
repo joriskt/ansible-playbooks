@@ -3,6 +3,10 @@
 - hosts: all
   become: true
   tasks:
+
+  - name: Create non-root user
+    user:
+
   
   - name: Uninstall nginx
     apt:
